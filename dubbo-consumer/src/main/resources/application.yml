@@ -1,0 +1,8 @@
+server:
+  port: 8444
+
+spring:
+  dubbo:
+    application:
+      name: dubbo-consumer
+      registry: zookeeper://47.107.53.172:2181
